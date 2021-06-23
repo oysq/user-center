@@ -18,7 +18,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/{id}")
-    public User test(@PathVariable Integer id) {
+    public User findById(@PathVariable Integer id) {
         log.info("--- 我被选中了 ---");
         return userService.findById(id);
     }
