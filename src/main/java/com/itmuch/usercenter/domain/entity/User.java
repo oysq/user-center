@@ -38,6 +38,6 @@ public class User {
     private Date updateTime;
 
     @TableField("bonus")
-    private String bonus;
+    private Integer bonus;
 
 }

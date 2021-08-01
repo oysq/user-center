@@ -23,7 +23,7 @@ public class TestController {
                 .avatarUrl("www.abc.com")
                 .createTime(new Date())
                 .updateTime(new Date())
-                .bonus("100")
+                .bonus(100)
                 .build();
         userMapper.insert(user);
         return user;
