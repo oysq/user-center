@@ -14,6 +14,20 @@ spring:
         cluster-name: BJ
         metadata:
           version: v1
+    stream:
+      rocketmq:
+        binder:
+          name-server: ${REMOTE-SERVER-IP:127.0.0.1}:9876
+      bindings:
+        input:
+          # 指定读取的topic
+          destination: stream-test-topic
+          # rocketmq的这个group必须配置，其他类型的mq可以不配置
+          group: consumer-spring-cloud-stream-test
+        my_input:
+          # 指定读取的topic
+          destination: stream-test-my-topic
+          group: consumer-spring-cloud-stream-my-sink-test
     # sentinel 控制台已经上云，访问不到本地，暂时不连接
 #    sentinel:
 #      transport:
