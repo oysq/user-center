@@ -1,4 +1,4 @@
-package com.itmuch.usercenter.domain.dto.message;
+package com.oysq.usercenter.domain.dto.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,7 +1,7 @@
-package com.itmuch.usercenter.controller.user;
+package com.oysq.usercenter.controller.user;
 
-import com.itmuch.usercenter.domain.entity.User;
-import com.itmuch.usercenter.service.user.UserService;
+import com.oysq.usercenter.domain.entity.User;
+import com.oysq.usercenter.service.user.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

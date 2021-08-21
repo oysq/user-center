@@ -1,6 +1,6 @@
-package com.itmuch.usercenter.stream.listener;
+package com.oysq.usercenter.stream.listener;
 
-import com.itmuch.usercenter.stream.input.MySink;
+import com.oysq.usercenter.stream.input.MySink;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.stereotype.Component;

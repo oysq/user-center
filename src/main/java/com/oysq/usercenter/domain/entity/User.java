@@ -1,4 +1,4 @@
-package com.itmuch.usercenter.domain.entity;
+package com.oysq.usercenter.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

@@ -1,4 +1,4 @@
-package com.itmuch.usercenter;
+package com.oysq.usercenter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

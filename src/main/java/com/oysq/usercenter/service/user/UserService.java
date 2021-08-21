@@ -1,7 +1,7 @@
-package com.itmuch.usercenter.service.user;
+package com.oysq.usercenter.service.user;
 
-import com.itmuch.usercenter.dao.UserMapper;
-import com.itmuch.usercenter.domain.entity.User;
+import com.oysq.usercenter.dao.UserMapper;
+import com.oysq.usercenter.domain.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.itmuch.usercenter.controller;
+package com.oysq.usercenter.controller;
 
-import com.itmuch.usercenter.dao.UserMapper;
-import com.itmuch.usercenter.domain.entity.User;
+import com.oysq.usercenter.dao.UserMapper;
+import com.oysq.usercenter.domain.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

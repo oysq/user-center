@@ -1,8 +1,8 @@
-package com.itmuch.usercenter.service.message;
+package com.oysq.usercenter.service.message;
 
-import com.itmuch.usercenter.dao.UserMapper;
-import com.itmuch.usercenter.domain.dto.message.UserAddBonusMessage;
-import com.itmuch.usercenter.domain.entity.User;
+import com.oysq.usercenter.dao.UserMapper;
+import com.oysq.usercenter.domain.dto.message.UserAddBonusMessage;
+import com.oysq.usercenter.domain.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
 import org.apache.rocketmq.spring.core.RocketMQListener;

@@ -1,4 +1,4 @@
-package com.itmuch.usercenter.stream.input;
+package com.oysq.usercenter.stream.input;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.messaging.SubscribableChannel;
