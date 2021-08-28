@@ -41,6 +41,14 @@ spring:
     username: ${REMOTE-USER-NAME}
     password: ${REMOTE-PASS-WORD}
 
+  zipkin:
+    base-url: http://${REMOTE-SERVER-IP:127.0.0.1}:9411
+  sleuth:
+    sampler:
+      # 抽样率，默认值是 0.1 (10%)
+      probability: 1.0
+
+
 # rocketmq
 rocketmq:
   name-server: ${REMOTE-SERVER-IP:127.0.0.1}:9876
