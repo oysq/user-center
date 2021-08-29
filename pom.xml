@@ -51,6 +51,12 @@
             <version>1.16.10</version>
         </dependency>
 
+        <!-- actuator -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- nacos-discover -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

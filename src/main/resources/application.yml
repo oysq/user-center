@@ -52,3 +52,10 @@ spring:
 # rocketmq
 rocketmq:
   name-server: ${REMOTE-SERVER-IP:127.0.0.1}:9876
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
